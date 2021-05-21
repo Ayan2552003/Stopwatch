@@ -17,7 +17,7 @@ function timer() {
         sec++
         secHead.innerHTML = sec
         msec = 00
-    } else if (sec == 10) {
+    } else if (sec == 60) {
         min++
         minHead.innerHTML = min
         sec = 00
